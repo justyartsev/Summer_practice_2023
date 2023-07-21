@@ -1,5 +1,6 @@
 distance = int(input("Сколько километров хотите проехать: "))
-consumption = int(input("Сколько литров топлива расходует машина на 100 километров: "))
+consumption = int(input(
+    "Сколько литров топлива расходует машина на 100 километров: "))
 fuel = int(input("Сколько литров топлива в вашем баке: "))
 need_fuel = (distance * consumption) / 100
 if fuel == need_fuel:
