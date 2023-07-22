@@ -1,5 +1,5 @@
 dictionary = dict()
-for i in range(1, 10+1):
+for i in range(1, 10 + 1):
     b = ''
     n = i
     while n > 0:
